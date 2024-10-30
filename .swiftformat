@@ -1,0 +1,15 @@
+# format options
+
+--binarygrouping none
+--header strip
+--hexgrouping none
+--importgrouping testable-bottom
+--octalgrouping none
+--swiftversion 5.10
+--wraparguments before-first
+--wrapcollections before-first
+--wrapconditions after-first
+
+# rules
+
+--enable isEmpty,blankLinesBetweenImports,blockComments,wrapConditionalBodies
