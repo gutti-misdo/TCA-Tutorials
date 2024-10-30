@@ -1,14 +1,6 @@
-//
-//  TCA_TutorialsUITestsLaunchTests.swift
-//  TCA-TutorialsUITests
-//
-//  Created by sakaguchi.hayato on 2024/10/30.
-//
-
 import XCTest
 
 final class TCA_TutorialsUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

@@ -1,15 +1,7 @@
-//
-//  TCA_TutorialsTests.swift
-//  TCA-TutorialsTests
-//
-//  Created by sakaguchi.hayato on 2024/10/30.
-//
-
 import XCTest
 @testable import TCA_Tutorials
 
 final class TCA_TutorialsTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -28,9 +20,8 @@ final class TCA_TutorialsTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
