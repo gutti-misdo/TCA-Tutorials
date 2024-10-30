@@ -6,6 +6,10 @@
 xcuserdata/
 .DS_Store
 
+# Xcode user-specific files
+*.xcuserstate
+
+
 ## Obj-C/Swift specific
 *.hmap
 
