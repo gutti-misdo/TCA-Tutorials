@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		08476DA02CD1F38100F5084D /* TCA_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476D9F2CD1F38100F5084D /* TCA_TutorialsApp.swift */; };
-		08476DA22CD1F38100F5084D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DA12CD1F38100F5084D /* ContentView.swift */; };
+		08476DA22CD1F38100F5084D /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DA12CD1F38100F5084D /* CounterFeature.swift */; };
 		08476DA42CD1F38300F5084D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08476DA32CD1F38300F5084D /* Assets.xcassets */; };
 		08476DA72CD1F38300F5084D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08476DA62CD1F38300F5084D /* Preview Assets.xcassets */; };
 		08476DB12CD1F38300F5084D /* TCA_TutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DB02CD1F38300F5084D /* TCA_TutorialsTests.swift */; };
 		08476DBB2CD1F38300F5084D /* TCA_TutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DBA2CD1F38300F5084D /* TCA_TutorialsUITests.swift */; };
 		08476DBD2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DBC2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift */; };
+		08D097E62CD237F000687D5E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 08D097E52CD237F000687D5E /* ComposableArchitecture */; };
+		08D097E82CD4C2AF00687D5E /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D097E72CD4C2AF00687D5E /* CounterFeatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		08476D9C2CD1F38100F5084D /* TCA-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08476D9F2CD1F38100F5084D /* TCA_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsApp.swift; sourceTree = "<group>"; };
-		08476DA12CD1F38100F5084D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08476DA12CD1F38100F5084D /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		08476DA32CD1F38300F5084D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08476DA62CD1F38300F5084D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08476DAC2CD1F38300F5084D /* TCA-TutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-TutorialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		08476DB62CD1F38300F5084D /* TCA-TutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-TutorialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08476DBA2CD1F38300F5084D /* TCA_TutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsUITests.swift; sourceTree = "<group>"; };
 		08476DBC2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08D097E72CD4C2AF00687D5E /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		08E6621D2CDA0BF4006C1190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D097E62CD237F000687D5E /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				08476DAF2CD1F38300F5084D /* TCA-TutorialsTests */,
 				08476DB92CD1F38300F5084D /* TCA-TutorialsUITests */,
 				08476D9D2CD1F38100F5084D /* Products */,
+				08D097E42CD237F000687D5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +100,9 @@
 		08476D9E2CD1F38100F5084D /* TCA-Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				08E6621D2CDA0BF4006C1190 /* Info.plist */,
 				08476D9F2CD1F38100F5084D /* TCA_TutorialsApp.swift */,
-				08476DA12CD1F38100F5084D /* ContentView.swift */,
+				08476DA12CD1F38100F5084D /* CounterFeature.swift */,
 				08476DA32CD1F38300F5084D /* Assets.xcassets */,
 				08476DA52CD1F38300F5084D /* Preview Content */,
 			);
@@ -114,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				08476DB02CD1F38300F5084D /* TCA_TutorialsTests.swift */,
+				08D097E72CD4C2AF00687D5E /* CounterFeatureTests.swift */,
 			);
 			path = "TCA-TutorialsTests";
 			sourceTree = "<group>";
@@ -125,6 +133,13 @@
 				08476DBC2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift */,
 			);
 			path = "TCA-TutorialsUITests";
+			sourceTree = "<group>";
+		};
+		08D097E42CD237F000687D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +158,9 @@
 			dependencies = (
 			);
 			name = "TCA-Tutorials";
+			packageProductDependencies = (
+				08D097E52CD237F000687D5E /* ComposableArchitecture */,
+			);
 			productName = "TCA-Tutorials";
 			productReference = 08476D9C2CD1F38100F5084D /* TCA-Tutorials.app */;
 			productType = "com.apple.product-type.application";
@@ -191,7 +209,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					08476D9B2CD1F38100F5084D = {
 						CreatedOnToolsVersion = 15.4;
@@ -260,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08476DA22CD1F38100F5084D /* ContentView.swift in Sources */,
+				08476DA22CD1F38100F5084D /* CounterFeature.swift in Sources */,
 				08476DA02CD1F38100F5084D /* TCA_TutorialsApp.swift in Sources */,
+				08D097E82CD4C2AF00687D5E /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,8 +444,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA-Tutorials/Preview Content\"";
+				DEVELOPMENT_TEAM = J6WCJNZ6QA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Tutorials/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,8 +474,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA-Tutorials/Preview Content\"";
+				DEVELOPMENT_TEAM = J6WCJNZ6QA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Tutorials/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,10 +499,10 @@
 		08476DC42CD1F38300F5084D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETCRPHYQG4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -495,10 +518,10 @@
 		08476DC52CD1F38300F5084D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETCRPHYQG4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -514,9 +537,9 @@
 		08476DC72CD1F38300F5084D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETCRPHYQG4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "name.sophiesun.TCA-TutorialsUITests";
@@ -531,9 +554,9 @@
 		08476DC82CD1F38300F5084D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETCRPHYQG4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "name.sophiesun.TCA-TutorialsUITests";
@@ -596,6 +619,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08D097E52CD237F000687D5E /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08476DCB2CD1F4ED00F5084D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 08476D942CD1F38100F5084D /* Project object */;
 }
