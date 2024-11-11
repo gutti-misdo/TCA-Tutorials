@@ -14,8 +14,15 @@
 		08476DB12CD1F38300F5084D /* TCA_TutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DB02CD1F38300F5084D /* TCA_TutorialsTests.swift */; };
 		08476DBB2CD1F38300F5084D /* TCA_TutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DBA2CD1F38300F5084D /* TCA_TutorialsUITests.swift */; };
 		08476DBD2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08476DBC2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift */; };
+		08CE873B2CDB4498007B1CFD /* CouterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE873A2CDB4484007B1CFD /* CouterFeatureTests.swift */; };
+		08CE873D2CDB5390007B1CFD /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE873C2CDB5384007B1CFD /* NumberFactClient.swift */; };
+		08CE87402CDB5927007B1CFD /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE873F2CDB591F007B1CFD /* AppFeature.swift */; };
+		08CE87422CDB6149007B1CFD /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE87412CDB613E007B1CFD /* AppFeatureTests.swift */; };
+		08CE87442CDB690D007B1CFD /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE87432CDB68F4007B1CFD /* ContactsFeature.swift */; };
+		08CE87462CDB69C9007B1CFD /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE87452CDB69BD007B1CFD /* AddContactFeature.swift */; };
+		08CE87482CDDFBFC007B1CFD /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE87472CDDFBF1007B1CFD /* ContactDetailFeature.swift */; };
+		08CE874A2CDE0209007B1CFD /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE87492CDE01EA007B1CFD /* ContactsFeatureTests.swift */; };
 		08D097E62CD237F000687D5E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 08D097E52CD237F000687D5E /* ComposableArchitecture */; };
-		08D097E82CD4C2AF00687D5E /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D097E72CD4C2AF00687D5E /* CounterFeatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +53,14 @@
 		08476DB62CD1F38300F5084D /* TCA-TutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-TutorialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08476DBA2CD1F38300F5084D /* TCA_TutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsUITests.swift; sourceTree = "<group>"; };
 		08476DBC2CD1F38300F5084D /* TCA_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		08D097E72CD4C2AF00687D5E /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		08CE873A2CDB4484007B1CFD /* CouterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouterFeatureTests.swift; sourceTree = "<group>"; };
+		08CE873C2CDB5384007B1CFD /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		08CE873F2CDB591F007B1CFD /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		08CE87412CDB613E007B1CFD /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
+		08CE87432CDB68F4007B1CFD /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		08CE87452CDB69BD007B1CFD /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		08CE87472CDDFBF1007B1CFD /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
+		08CE87492CDE01EA007B1CFD /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
 		08E6621D2CDA0BF4006C1190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +114,11 @@
 		08476D9E2CD1F38100F5084D /* TCA-Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				08CE87472CDDFBF1007B1CFD /* ContactDetailFeature.swift */,
+				08CE87452CDB69BD007B1CFD /* AddContactFeature.swift */,
+				08CE87432CDB68F4007B1CFD /* ContactsFeature.swift */,
+				08CE873F2CDB591F007B1CFD /* AppFeature.swift */,
+				08CE873C2CDB5384007B1CFD /* NumberFactClient.swift */,
 				08E6621D2CDA0BF4006C1190 /* Info.plist */,
 				08476D9F2CD1F38100F5084D /* TCA_TutorialsApp.swift */,
 				08476DA12CD1F38100F5084D /* CounterFeature.swift */,
@@ -120,8 +139,10 @@
 		08476DAF2CD1F38300F5084D /* TCA-TutorialsTests */ = {
 			isa = PBXGroup;
 			children = (
+				08CE87492CDE01EA007B1CFD /* ContactsFeatureTests.swift */,
+				08CE87412CDB613E007B1CFD /* AppFeatureTests.swift */,
+				08CE873A2CDB4484007B1CFD /* CouterFeatureTests.swift */,
 				08476DB02CD1F38300F5084D /* TCA_TutorialsTests.swift */,
-				08D097E72CD4C2AF00687D5E /* CounterFeatureTests.swift */,
 			);
 			path = "TCA-TutorialsTests";
 			sourceTree = "<group>";
@@ -278,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CE87402CDB5927007B1CFD /* AppFeature.swift in Sources */,
+				08CE87462CDB69C9007B1CFD /* AddContactFeature.swift in Sources */,
+				08CE873D2CDB5390007B1CFD /* NumberFactClient.swift in Sources */,
 				08476DA22CD1F38100F5084D /* CounterFeature.swift in Sources */,
+				08CE87482CDDFBFC007B1CFD /* ContactDetailFeature.swift in Sources */,
 				08476DA02CD1F38100F5084D /* TCA_TutorialsApp.swift in Sources */,
-				08D097E82CD4C2AF00687D5E /* CounterFeatureTests.swift in Sources */,
+				08CE87442CDB690D007B1CFD /* ContactsFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CE873B2CDB4498007B1CFD /* CouterFeatureTests.swift in Sources */,
 				08476DB12CD1F38300F5084D /* TCA_TutorialsTests.swift in Sources */,
+				08CE87422CDB6149007B1CFD /* AppFeatureTests.swift in Sources */,
+				08CE874A2CDE0209007B1CFD /* ContactsFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
